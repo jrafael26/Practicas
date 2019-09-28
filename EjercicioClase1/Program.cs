@@ -28,7 +28,16 @@ namespace EjercicioClase1
             Banco banco = new Banco();
 
             banco.DepositosTotales();
-           
+
+            Console.WriteLine("Calculando area de un triangulo...");
+            Triangulo tr = new Triangulo();
+            Console.WriteLine("El area es: {0} ", tr.CalcArea(2, 4));
+            Console.ReadKey();
+
+            Console.WriteLine("Calculando el radio de un circulo...");
+            Circulo circulo = new Circulo();
+            Console.WriteLine("El area es: {0} ", circulo.CalcArea(0,0,10));
+            Console.ReadKey();
         }
 
         public class Clase2
@@ -125,17 +134,26 @@ namespace EjercicioClase1
             }
         }
 
-        //public void NumPares ()
-        //{
-        //    for (int i = 1; i <= 100; i++)
-        //    {
-        //        if (i % 2 == 0)
-        //        {
-        //            Console.WriteLine(i);
-        //        }
-        //    }
+        public class Triangulo : Figuras
+        {
+            public override double CalcArea(int _altura, int _ancho, int radio = 0)
+            {
+                Altura = _altura;
+                Ancho = _ancho;
 
-        //    Console.ReadKey();
-        //}
+                return Ancho * Altura;
+            }
+        }
+
+        public class Circulo : Figuras
+        {
+
+            public override double CalcArea(int _altura, int _ancho, int radio = 0)
+            {
+                double _radio = radio;
+                return Math.PI * (radio * radio);
+            }
+        }
+
     }
 }
