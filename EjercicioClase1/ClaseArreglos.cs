@@ -37,17 +37,21 @@ namespace EjercicioClase1
             Console.ReadKey();
         }
 
-        //public int[] MayoresA18 (int[] arreglo) // Tiene que devolver un arreglo con los valores mayores a 18
+        //public int[] MayoresA18(int[] arreglo) // Tiene que devolver un arreglo con los valores mayores a 18
         //{
+        //    arreglo = new int[5];
         //    for (int i = 0; i < arreglo.Length; i++)
         //    {
+        //        if (arreglo[i]>18)
+        //        {
 
+        //        }
         //    }
 
 
 
 
-        //     int[] result = new int[10];
+        //    int[] result = new int[10];
         //}
     }
 }

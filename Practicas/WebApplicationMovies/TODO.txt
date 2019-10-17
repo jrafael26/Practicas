@@ -1,0 +1,3 @@
+Cambiar el Tema de boostrap ir a bootswatch escoger 3
+en content creamos una nuevo css se le
+nombre bootstap_*nombe del templete
