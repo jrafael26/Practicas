@@ -1,0 +1,11 @@
+List<Models.Customers> model = new List<Models.Customers>()
+            {
+               new Models.Customers{ Id=1, Name="Juan Perez"},
+               new Models.Customers { Id= 2, Name= "Mario Kart" },
+               new Models.Customers{ Id=3, Name="Alicia Rodríguez"},
+               new Models.Customers { Id= 4, Name= "Pedro Pablo Gil" },
+            };
+
+Tarea
+
+Boton atras en cada una de las acciones...

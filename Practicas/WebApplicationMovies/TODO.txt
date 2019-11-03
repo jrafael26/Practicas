@@ -1,3 +1,7 @@
 Cambiar el Tema de boostrap ir a bootswatch escoger 3
 en content creamos una nuevo css se le
 nombre bootstap_*nombe del templete
+
+23*10*2019
+Tarea
+Tarea ASP.NEt route contrein

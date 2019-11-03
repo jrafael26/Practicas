@@ -25,6 +25,7 @@ namespace WebApplicationMovies.Models
         {
         }
 
+        public DbSet<Movie> Movies { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
